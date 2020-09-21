@@ -15,8 +15,9 @@ The file candyshop_data.txt contains the dataset for this linear regression prob
 The model is linear (affine) I've augmented the given input feature with a dimension containing ones. This is implemented with linear least square errors
 
 
-#### Algorithm description: 
+#### Algorithm description: Linear least square errors
 ---------------------- 
+
 1. Function readData() was created to read the file candyshop_data.txt using pandas
 2. A X matrix was created of order Nx2 with 1st column as populations and 2nd column as 1’s
 3. A Y matrix was created of order Nx1 with all the profits in it correspondingly
