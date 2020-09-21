@@ -21,7 +21,7 @@ The model is linear (affine) I've augmented the given input feature with a dimen
 1. Function readData() was created to read the file candyshop_data.txt using pandas
 2. A X matrix was created of order Nx2 with 1st column as populations and 2nd column as 1’s
 3. A Y matrix was created of order Nx1 with all the profits in it correspondingly
-4. Using pandas, numpy methods calculated the w (order 2x1) as per the formula given in spec
+4. Using pandas, numpy methods calculated the w (order 2x1)
 5. Defined two methods abline(), line() for plotting the line and getting y values for the line equation
 6. Using matplotlib drawn the plots for the data and calculated line
 
